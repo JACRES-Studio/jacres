@@ -21,7 +21,7 @@ header h1, header h2 {
 
 header h2 {
     margin-bottom: 1rem;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 header .slogan {
@@ -30,7 +30,7 @@ header .slogan {
 }
 
 header .slogan .studio-slogan {
-    width: 80vw;
+    width: 50vw;
 }
 
 /* header .overlap {
