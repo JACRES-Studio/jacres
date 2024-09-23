@@ -1,0 +1,213 @@
+:root {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100vw;
+    height: calc(100vh - 7rem);
+    background: linear-gradient(rgba(255, 72, 0, 0.7), rgba(1, 1, 1, .7)), url(media/home/button-war.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    transition-duration: .2s;
+}
+
+header h1, header h2 {
+    font-family: "Montserrat";
+    font-weight: bolder;
+    color: white;
+}
+
+header h2 {
+    margin-bottom: 1rem;
+    font-size: 3vw;
+}
+
+header .slogan {
+    padding-top: calc(43vh - 7rem);
+    z-index: 100;
+}
+
+header .slogan .studio-slogan {
+    width: 80vw;
+}
+
+/* header .overlap {
+    padding-top: 30rem;
+    width: 100%;
+} */
+
+main {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 10;
+
+}
+
+/* GAMES SECTION */
+
+main .games-section {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 1%;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+main .games-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10rem;
+}
+
+main .games-label .label {
+    padding-top: 10rem;
+}
+
+main .games-section .game-card {
+    background-color: #eeeeee;
+    border-radius: 3rem;
+    width: 50rem;
+    height: 38rem;
+    margin: 1rem;
+    color: #1A1A1A;
+    transition-duration: .2s;
+}
+
+main .games-section .game-card p {
+    text-align: left;
+}
+
+
+main .games-section .game-card .description {
+    padding-top: 1.2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+main .games-section .game-card .game-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .games-section .game-card .game-image img {
+    border-radius: 1rem;
+    width: 90%;
+}
+
+main .games-section .game-card .description .name {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+main .games-section .game-card .description .genre {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+main .games-section .game-card:hover {
+    background-color: #020202;
+    color: white;
+}
+
+/* TOOLS SECTION */
+
+main .tools-section {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 1%;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+main .tools-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10rem;
+}
+
+main .tools-label .label {
+    padding-top: 10rem;
+}
+
+
+main .tools-section .saga-card {
+    background-color: #071d73;
+    border-radius: 3rem;
+    width: 50rem;
+    height: 38rem;
+    margin: 1rem;
+    color: #1A1A1A;
+    transition-duration: .2s;
+}
+
+main .tools-section .saga-card:hover {
+    background-color: #0066ff;
+}
+
+@media only screen and (max-width: 600px) {
+    main .games-section .game-card {
+        background-color: #eeeeee;
+        border-radius: 3rem;
+        width: 90vw;
+        height: 38rem;
+        margin: 1rem;
+        color: #1A1A1A;
+        transition-duration: .2s;
+    }
+    
+    main .games-section .game-card p {
+        text-align: left;
+    }
+    
+    
+    main .games-section .game-card .description {
+        padding-top: 1.2rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    
+    main .games-section .game-card .game-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    main .games-section .game-card .game-image img {
+        border-radius: 1rem;
+        width: 90%;
+        height: 70%;
+    }
+    
+    main .games-section .game-card .description .name {
+        font-family: "Montserrat";
+        font-weight: 800;
+        font-size: 2rem;
+    }
+    
+    main .games-section .game-card .description .genre {
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+
+    main .tools-section .saga-card {
+        background-color: #071d73;
+        border-radius: 3rem;
+        width: 90vw;
+        height: 38rem;
+        margin: 1rem;
+        color: #1A1A1A;
+        transition-duration: .2s;
+    }
+}
