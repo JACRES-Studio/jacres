@@ -3,7 +3,7 @@
 }
 
 header {
-    width: 100vw;
+    width: 100%;
     height: calc(100vh - 7rem);
     background: linear-gradient(rgba(255, 72, 0, 0.7), rgba(1, 1, 1, .7)), url(media/home/button-war.png);
     background-repeat: no-repeat;
