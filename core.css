@@ -1,0 +1,190 @@
+:root {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: "Montserrat-ExtraBold";
+    src: url(media/fonts/montserrat/Montserrat-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(media/fonts/montserrat/Montserrat-Bold.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-Black";
+    src: url(media/fonts/montserrat/Montserrat-Black.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url(media/fonts/montserrat/Montserrat-Light.otf);
+}
+
+
+/* ~~~~~ DIVIDERS ~~~~~ */
+.orange-divider {
+    width: 100%;
+    background-color: #FF1F00;
+    height: .2rem;
+}
+
+/* ~~~~~ NAVIGATION ~~~~~ */
+
+nav {
+    background-color: #FFFFFF;
+    width: 100%;
+    top: 0;
+    position: sticky;
+}
+
+nav .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 6rem;
+}
+
+nav .logo {
+    width: 20rem;
+}
+
+nav .nav-button {
+    cursor: pointer;
+    height: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition-duration: .1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .home {
+    color: #FF1F00;
+    font-family: "Montserrat-ExtraBold";
+    font-size: 3.4rem;
+}
+
+nav .home:hover {
+    color: #bd1600;
+}
+
+nav .saga {
+    color: #FF1F00;
+    font-family: "Montserrat-Light";
+    font-size: 2rem;
+}
+
+nav .saga:hover {
+    color: #003cff;
+}
+
+nav .tools {
+    font-family: "Montserrat-Light";
+    color: #FF1F00;
+    font-size: 2rem;
+}
+
+nav .tools:hover {
+    color: #bd1600;
+}
+
+
+nav .games {
+    font-family: "Montserrat-Light";
+    color: #FF1F00;
+    font-size: 2rem;
+}
+
+nav .games:hover {
+    color: #bd1600;
+}
+
+
+nav .divider {
+    background-color: white;
+    height: 40%;
+    width: .2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/* ~~~~~ RESPONSIVENESS ~~~~~ */
+
+@media only screen and (max-width: 600px) {
+    /* ~~~~~ NAVIGATION ~~~~~ */
+
+    nav {
+        background-color: #FFFFFF;
+        width: 100%;
+        top: 0;
+        position: sticky;
+    }
+
+    nav .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 6rem;
+    }
+
+    nav .logo {
+        width: 20rem;
+    }
+
+    nav .nav-button {
+        cursor: pointer;
+        height: 100%;
+        transition-duration: .1s;
+    }
+    nav .home {
+        color: #FF1F00;
+        font-family: "Montserrat-ExtraBold";
+        font-size: 5vw;
+    }
+
+    nav .home:hover {
+        color: #bd1600;
+    }
+
+    nav .saga {
+        color: #FF1F00;
+        font-family: "Montserrat-Light";
+        font-size: 4vw;
+    }
+
+    nav .saga:hover {
+        color: #003cff;
+    }
+
+    nav .tools {
+        font-family: "Montserrat-Light";
+        color: #FF1F00;
+        font-size: 4vw;
+    }
+
+    nav .tools:hover {
+        color: #bd1600;
+    }
+
+
+    nav .games {
+        font-family: "Montserrat-Light";
+        color: #FF1F00;
+        font-size: 4vw;
+    }
+
+    nav .games:hover {
+        color: #bd1600;
+    }
+
+
+    nav .divider {
+        background-color: white;
+        height: 40%;
+        width: .2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}

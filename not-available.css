@@ -1,0 +1,40 @@
+:root {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: "Montserrat-ExtraBold";
+    src: url(media/fonts/montserrat/Montserrat-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(media/fonts/montserrat/Montserrat-Bold.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-Black";
+    src: url(media/fonts/montserrat/Montserrat-Black.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url(media/fonts/montserrat/Montserrat-Light.otf);
+}
+
+/* MESSAGE */
+
+.sorry {
+    padding-top: 10vh;
+    font-family: "Montserrat-ExtraBold";
+    color: #FF1F00;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.unavailable {
+    font-family: "Montserrat-Light";
+    color: #FF1F00;
+    text-align: center;
+    font-size: 4vw;
+}
