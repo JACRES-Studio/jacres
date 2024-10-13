@@ -26,7 +26,7 @@ html {
 
 header {
     width: 100%;
-    height: 46vh;
+    height: 100vh;
     background-image: linear-gradient(#003cff6e, rgb(255, 72, 0, 0)), url(media/backgrounds/saga/angelo-studying.JPG);
     background-position: center;
     background-repeat: no-repeat;
@@ -53,12 +53,15 @@ header {
 main .st-josephs-academy {
     padding-left: 5vw;
     padding-right: 5vw;
-    padding-top: 40vh;
-    padding-bottom: 40vh;
+    height: 100vh;
     text-align: center;
     background-image: linear-gradient(#0000006e, rgba(0, 0, 0, 0.76)), url(media/backgrounds/saga/sja.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+main .content {
+    padding-top: 35vh;
 }
 
 main .st-josephs-academy .label {
