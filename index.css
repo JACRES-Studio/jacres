@@ -584,7 +584,7 @@ footer .copyright {
         background-image: url("/media/header/button-war-anniversary.png");
         border-style: solid;
         border-color: #ffffff;
-        border-width: .5vh;
+        border-width: .25vh;
 
         box-shadow: #00000050 .5vh .5vh 1vh;
     }
