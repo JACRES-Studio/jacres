@@ -225,14 +225,6 @@ header .text-container .button:hover {
 }
 
 
-.orange-line {
-    background-color: #FF4400;
-    width: 100vw;
-    height: .2vh;
-}
-
-
-
 
 
 /* ~~~~~ MAIN CONTENT ~~~~~ */
@@ -625,13 +617,6 @@ footer .copyright {
     header .text-container .button:hover {
         background-color: #FF4400;
         color: white;
-    }
-
-
-    .orange-line {
-        background-color: #FF4400;
-        width: 100vw;
-        height: .2vh;
     }
 
 

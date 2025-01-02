@@ -1,0 +1,481 @@
+:root {
+    font-size: 62.5%;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: #FFFFFF;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+html::-webkit-scrollbar-track {
+    background: #041558;
+}
+html::-webkit-scrollbar-thumb {
+    background: #0D36D4;
+}
+html::-webkit-scrollbar-thumb:hover {
+    background: #1d43df;
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(media/fonts/montserrat/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-ExtraBold";
+    src: url(media/fonts/montserrat/Montserrat-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(media/fonts/montserrat/Montserrat-Bold.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-Black";
+    src: url(media/fonts/montserrat/Montserrat-Black.otf);
+}
+
+@font-face {
+    font-family: "Saira-Black";
+    src: url(media/fonts/saira/SairaExtraCondensed-Black.ttf);
+}
+
+@font-face {
+    font-family: "Saira-Bold";
+    src: url(media/fonts/saira/SairaExtraCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Saira-Extrabold";
+    src: url(media/fonts/saira/SairaExtraCondensed-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Saira-Light";
+    src: url(media/fonts/saira/SairaExtraCondensed-Light.ttf);
+}
+
+/* ~~~~~ NAVIGATION ~~~~~ */
+
+nav {
+    background-color: #071D73;
+    top: 0;
+    position: sticky;
+    width: 100%;
+    height: 5vh;
+}
+
+.nav-content {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.nav-content .brand-logo {
+    color: white;
+    background-color: transparent;
+    font-family: "Montserrat-Bold";
+    font-size: 1.3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    transition-duration: .1s;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    cursor: pointer;
+    margin-left: 2vw;
+}
+
+.nav-content .link {
+    color: white;
+    background-color: transparent;
+    font-family: "Montserrat-Regular";
+    font-size: 1vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition-duration: .1s;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.nav-content .brand-logo:hover, .nav-content .link:hover {
+    background-color: #0D36D4;
+}
+
+.brand-color-line {
+    background-color: #0D36D4;
+    width: 100vw;
+    height: .2vh;
+}
+
+.brand-color-shadow {
+    background-image: linear-gradient(#0d35d41e, #0d35d400);
+    width: 100vw;
+    height: 3vh;
+}
+
+
+
+
+
+/* ~~~~~ HEADER ~~~~~ */
+
+header {
+    height: 95vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    /* background-image: url(/media/header/button-war-anniversary-blurred.png); */
+}
+
+header .content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+
+    width: 80vw;
+    gap: 1vw;
+}
+
+header .item {
+    font-size: 1vw;
+    height: 100%;
+}
+
+header .hero {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .hero .tagline {
+    font-family: "Montserrat-Black";
+    color: #071D73;
+    font-size: 3vw;
+    margin-bottom: 2vh;
+}
+header .hero .bottom-line {
+    font-family: "Montserrat-Regular";
+    color: #071D73;
+    font-size: 1.8vw;
+    line-height: 5vh;
+    
+}
+
+header .side-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .header-image {
+    height: 70%;
+}
+
+header .image {
+    width: 40vw;
+    height: 45vh;
+    margin-right: 1vw;
+    transition-duration: 1s;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("/media/header/button-war-anniversary.png");
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: .5vh;
+
+    box-shadow: #00000050 .5vh .5vh 1vh;
+}
+
+header .text-container {
+    margin-left: 1vw;
+    margin-right: 10vw;
+}
+
+header .text-container .title {
+    font-family: "Montserrat-ExtraBold";
+    font-size: 3vw;
+    margin-bottom: 4vh;
+    transition: .5s;
+    color: wheat;
+}
+
+header .text-container .description {
+    font-family: "Montserrat-Regular";
+    font-size: 1.5vw;
+    margin-bottom: 2.5vh;
+    transition: .5s;
+}
+
+header .text-container .button {
+    font-family: "Montserrat-Bold";
+    font-size: 1.5vw;
+    color: #111111;
+    background-color: white;
+    margin-top: 3vh;
+    display: inline-block;
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: .5vw;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+header .text-container .button:hover {
+    background-color: #0D36D4;
+    color: white;
+}
+
+
+
+/* ~~~~~ MAIN CONTENT ~~~~~ */
+
+.gray-line {
+    background-color: #303030;
+    width: 100vw;
+    height: .2vh;
+}
+
+
+
+
+
+/* TWO SCHOOLS */
+
+.two-schools {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two-schools .content {
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+}
+
+.two-schools .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-schools .sja {
+    background-image: url(media/saga/backgrounds/sja.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two-schools .perps {
+    background-image: url(media/saga/backgrounds/perps.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two-schools .link {
+    background-image: linear-gradient(#ffffff, #DEDEDE);
+    padding: 3vw;
+    border-radius: 2vw;
+    cursor: pointer;
+    box-shadow: #071d7377 0vw 0vw 1vw;
+    transition-duration: .5s;
+    width: 30vw;
+}
+
+.two-schools .link:hover {
+    box-shadow: #071d73ad 0vw 0vw 2vw;
+    width: 32vw;
+
+}
+
+
+
+
+
+/* DO YOU WANT TO */
+.want-to {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.want-to .content {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.want-to .question {
+    font-family: "Montserrat-Black";
+    color: #071D73;
+    font-size: 3vw;
+}
+
+.want-to .answer {
+    margin-top: 2vh;
+    font-family: "Montserrat-Regular";
+    color: #071D73;
+    font-size: 3vw;
+}
+
+
+
+
+
+/* ~~~~~ FOOTER ~~~~~ */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #0A0A0A;
+    width: 100%;
+    height: 30vh;
+}
+footer .content {
+    height: 100%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: grid;
+    grid-template-columns: 15vw 65vw;
+    background-color: transparent;
+}
+
+footer .title {
+    color:white;
+}
+
+footer .section {
+    color: #707070;
+    font-family: "Montserrat-Regular";
+    font-size: 1vw;
+    padding-top: 5vh;
+    text-align: left;
+}
+
+footer .link {
+    cursor: pointer;
+    color: #707070;
+    display: inline-block;
+    margin-top: 1vh;
+}
+
+footer .link:hover {
+    color: #909090;
+}
+
+footer .copyright {
+    background-color: transparent;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-family: "Montserrat-ExtraBold";
+    color: white;
+    padding-top: 5vh;
+    font-size: 1.5vw;
+}
+
+.gray-line-vertical {
+    background-color: #707070;
+    width: .2vw;
+}
+
+
+
+
+
+/* ~~~~~ RESPONSIVENESS ~~~~~ */
+
+@media only screen and (max-width: 600px) {
+    
+    /* ~~~~~ FOOTER ~~~~~ */
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: #0A0A0A;
+        width: 100%;
+        height: 15vh;
+    }
+    footer .content {
+        height: 100%;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        display: grid;
+        grid-template-columns: 15vw 75vw;
+        background-color: transparent;
+    }
+
+    footer .title {
+        color:white;
+    }
+
+    footer .section {
+        color: #707070;
+        font-family: "Montserrat-Regular";
+        font-size: 2vw;
+        padding-top: 2vh;
+        text-align: left;
+    }
+
+    footer .link {
+        cursor: pointer;
+        color: #707070;
+        display: inline-block;
+        margin-top: 1vh;
+    }
+
+    footer .link:hover {
+        color: #909090;
+    }
+
+    footer .copyright {
+        background-color: transparent;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        font-family: "Montserrat-ExtraBold";
+        color: white;
+        padding-top: 5vh;
+        font-size: 3vw;
+    }
+
+    .gray-line-vertical {
+        background-color: #707070;
+        width: .2vw;
+    }
+
+}
