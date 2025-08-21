@@ -41,6 +41,7 @@ nav .container {
     background-image: linear-gradient(#0c007544, #0c007500);
     height: 2vh;
     width: 100%;
+    background-color: transparent;
 }
 
 nav .divider {
@@ -189,17 +190,20 @@ body .branch .image {
 footer {
     background-color: #0a0a0a;
     text-align: right;
+    height: 10vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 footer .container {
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 10vh;
-    padding-bottom: 2vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 footer .company_name {
     font-family: montserratExtraBold;
     color: white;
-    font-size: 1.4rem;
+    font-size: 2rem;
+    cursor: pointer;
 }

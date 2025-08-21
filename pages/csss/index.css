@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'montserratExtraBold';
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'montserratBlack';
+    src: url(../fonts/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: 'montserratBold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+/* SHADOW */
+.shadow {
+    background-image: linear-gradient(#11111144, #11111100);
+    height: 2vh;
+}
+
+.white-divider {
+    background-color: rgb(10, 10, 10);
+    height: .2vh;
+}
+
+/* NAVIGATION */
+
+nav {
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(#1a1a1a, #000000);
+    box-shadow: inset 0 .5vw 1vw black;
+    width: 100vw;
+    max-width: 100%;
+    height: 5vh;
+}
+
+nav .container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+nav .logo {
+    color: white;
+    font-family: montserratExtraBold;
+    font-size: 3vw;
+    margin-right: 2vw;
+    cursor: default;
+}
+
+nav button {
+    background-color: transparent;
+    height: 100%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: white;
+    font-family: montserratBold;
+    font-size: 1.7vw;
+    cursor: pointer;
+    transition-duration: .1s;
+}
+
+nav button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* HEADER */
+
+header {
+    height: 45vh;
+
+    background-image: url(/images/branding/jacres-horizon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: inset 0 0 10vw rgba(0, 0, 0, 0.521);
+}
+
+header .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    justify-content: center;
+}
+
+header .slogan {
+    font-family: montserratExtraBold;
+    color: white;
+    font-size: 4vw;
+    text-shadow: 0 .3rem .5rem black;
+    cursor: default;
+}
+
+/* ABOUT */
+body .about {
+    background-image: linear-gradient(#0c0c0c, #000000);
+
+}
+body .about .container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+body .about .label {
+    font-family: montserratExtraBold;
+    color: white;
+    font-size: 4vw;
+    text-shadow: 0 .3rem .5rem black;
+    cursor: default;
+    padding-top: 5vh;
+}
+
+body .about .story {
+    font-family: montserratBold;
+    color: rgb(233, 233, 233);
+    font-size: 2vw;
+    text-shadow: 0 .3rem .5rem black;
+    cursor: default;
+    padding-top: 2vh;
+    margin-left: 5vw;
+    text-align: justify;
+}
+
+body .about .motto {
+    font-family: montserratExtraBold;
+    color: white;
+    padding-top: 2vh;
+    font-size: 3vw;
+    cursor: default;
+    padding-bottom: 7vh;
+    margin-left: 15vw;
+}
+
+/* BRANCHES */
+
+body .branches {
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    background-image: linear-gradient(#db3e00, #db3e00);
+    
+}
+
+body .branches .container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+body .branches .label {
+    font-family: montserratExtraBold;
+    color: white;
+    font-size: 4vw;
+    text-shadow: 0 .3rem .5rem black;
+    cursor: default;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+body .branches .branch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    border-radius: 10vw;
+    margin-bottom: 5vh;
+    width: 100%;
+    transition-duration: .1s;
+    background-color: #111111;
+    box-shadow: inset 0 0 10vw rgb(0, 0, 0);
+    box-shadow: 0 1vh 2vw rgba(0, 0, 0, 0.486);
+}
+
+body .branches .entertainment-logo {
+    width: 30vw;
+}
+
+body .branches .saga-logo {
+    width: 25vw;
+}
+
+body .branches .branch:hover {
+    cursor: pointer;
+    background-color: rgb(5, 5, 5);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #0a0a0a;
+    text-align: right;
+    height: 10vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+footer .container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+footer .company-name {
+    font-family: montserratExtraBold;
+    color: white;
+    font-size: 2rem;
+}
