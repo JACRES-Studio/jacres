@@ -190,7 +190,7 @@ body .branch .image {
 footer {
     background-color: #0a0a0a;
     text-align: right;
-    height: 10vh;
+    height: 20vh;
     display: flex;
     justify-content: right;
     align-items: center;

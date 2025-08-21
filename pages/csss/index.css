@@ -49,7 +49,7 @@ nav .container {
 nav .logo {
     color: white;
     font-family: montserratExtraBold;
-    font-size: 3vw;
+    font-size: 1.5vw;
     margin-right: 2vw;
     cursor: default;
 }
@@ -61,7 +61,7 @@ nav button {
     padding-right: 2vw;
     color: white;
     font-family: montserratBold;
-    font-size: 1.7vw;
+    font-size: 1vw;
     cursor: pointer;
     transition-duration: .1s;
 }
@@ -107,6 +107,8 @@ body .about {
 
 }
 body .about .container {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     margin-left: 10vw;
     margin-right: 10vw;
 }
@@ -114,16 +116,17 @@ body .about .container {
 body .about .label {
     font-family: montserratExtraBold;
     color: white;
-    font-size: 4vw;
+    font-size: 3vw;
     text-shadow: 0 .3rem .5rem black;
     cursor: default;
     padding-top: 5vh;
+    padding-bottom: 2vh;
 }
 
 body .about .story {
     font-family: montserratBold;
     color: rgb(233, 233, 233);
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-shadow: 0 .3rem .5rem black;
     cursor: default;
     padding-top: 2vh;
@@ -135,10 +138,10 @@ body .about .motto {
     font-family: montserratExtraBold;
     color: white;
     padding-top: 2vh;
-    font-size: 3vw;
+    font-size: 1.5vw;
     cursor: default;
     padding-bottom: 7vh;
-    margin-left: 15vw;
+    margin-left: 5vw;
 }
 
 /* BRANCHES */
@@ -153,12 +156,14 @@ body .branches {
 body .branches .container {
     margin-left: 10vw;
     margin-right: 10vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 body .branches .label {
     font-family: montserratExtraBold;
     color: white;
-    font-size: 4vw;
+    font-size: 3vw;
     text-shadow: 0 .3rem .5rem black;
     cursor: default;
     padding-top: 5vh;
@@ -169,7 +174,7 @@ body .branches .branch {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20vh;
+    height: 30vh;
     border-radius: 10vw;
     margin-bottom: 5vh;
     width: 100%;
@@ -197,7 +202,7 @@ body .branches .branch:hover {
 footer {
     background-color: #0a0a0a;
     text-align: right;
-    height: 10vh;
+    height: 20vh;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -212,4 +217,5 @@ footer .company-name {
     font-family: montserratExtraBold;
     color: white;
     font-size: 2rem;
+    cursor: pointer;
 }
