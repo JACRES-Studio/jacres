@@ -76,7 +76,7 @@ nav button:hover {
 header {
     height: 45vh;
 
-    background-image: url(/images/branding/jacres-horizon.png);
+    background-image: url(./images/branding/jacres-horizon.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
