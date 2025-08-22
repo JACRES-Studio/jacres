@@ -207,3 +207,206 @@ footer .company_name {
     font-size: 2rem;
     cursor: pointer;
 }
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+    /* HEADER */
+
+    nav {
+        position: sticky;
+        top: 0;
+        background-image: linear-gradient(#1400C9, #0C0075);
+        box-shadow: inset 0 0 .2rem .2rem #0C0075;
+        height: 5vh;
+        width: 100vw;
+        max-width: 100%;
+    }
+
+    nav .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        padding-left: 10vw;
+        padding-right: 10vw;
+
+        overflow: hidden;
+    }
+
+    .shadow {
+        background-image: linear-gradient(#0c007544, #0c007500);
+        height: 2vh;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    nav .divider {
+        background-color: white;
+        width: .1vw;
+        height: 2.5vh;
+        color:transparent
+    }
+
+    nav .logo {
+        height: 3vh;
+        padding-right: 2.3vw;
+        margin-top: .5vh;
+    }
+
+    nav .navigation {
+        height: 100%;
+        margin-left: 1rem;
+        text-align: center;
+        font-family: montserratExtraBold;
+        color:white;
+        font-size: 1rem;
+        text-shadow: #00000050 .1rem .1rem .1rem;
+        transition-duration: .2s;
+        align-items: center;
+        cursor: pointer;
+        background-color: transparent;
+        border-radius: 10vw;
+        padding: .2vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+    nav .navigation:hover {
+        background-color: white;
+        color: #0C0075;
+        text-shadow: #00000034 .1rem .1rem .1rem;
+    }
+
+    /* HERO */
+
+    body .hero {
+        height: 40vh;
+    }
+    
+    body .hero .slogan {
+        font-family: montserratExtraBold;
+        font-size: 4vw;
+        /* color: #0C0075; */
+        color: white;
+        text-shadow:
+            0rem .1rem .2rem #0300202d,
+            0rem .2rem .2rem #03002017,
+            0rem -.1rem .2rem #3d28ff3d;
+    }
+
+    body .hero .container {
+        height: 100%;
+        width: 100%;
+        background-image: url(../images/hero-background.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    body .hero .reviewers {
+        width: 50vw;
+        margin-left: 2rem;
+        padding-top: 3vh;
+        padding-bottom: 2vh;
+    }
+
+    /* ABOUT */
+
+    body .about {
+        box-sizing: border-box;
+        padding-bottom: 12vh;
+    }
+    body .about .container {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    body .about .fact {
+        font-family: 'MontserratExtraBold';
+        color: #0C0075;
+        font-size: 4vw;
+        padding-top: 9vh;
+    }
+
+    body .about .about_statement {
+        padding-top: 4vh;
+        font-family: 'montserratBold';
+        font-size: 2.5vw;
+        line-height: 2vh;
+        color: #0a0a0a;
+    }
+
+    /* BRANCHES */
+
+    body .branches {
+        box-sizing: border-box;
+        background-color: #0C0075;
+        height: 109vh;
+        text-align: center;
+    }
+
+    body .branches .label {
+        font-family: 'MontserratExtraBold';
+        color: #ffffff;
+        font-size: 4vw;
+        padding-top: 8vh;
+        text-align: center;
+        padding-bottom: 2vh;
+    }
+
+    body .branches_container {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    body .branches .branch, body .branches .inactive_branch {
+        background-color: white;
+        width: 70vw;
+        height: 20vh;
+        padding: 2vw;
+        margin: 1vw;
+        border-radius: 5vw;
+        transition-duration: .2s;
+    }
+
+    body .branches .branch:hover {
+        background-color: rgb(199, 204, 253);
+        cursor: pointer;
+    }
+
+
+    body .branches .image {
+        width: 50vw;
+    }
+
+    /* FOOTER */
+
+    footer {
+        background-color: #0a0a0a;
+        text-align: right;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .container {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    footer .company_name {
+        font-family: montserratExtraBold;
+        color: white;
+        font-size: 2.5vw;
+        cursor: pointer;
+    }
+}
