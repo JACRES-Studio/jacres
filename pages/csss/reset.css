@@ -36,11 +36,6 @@ textarea {
   white-space: revert;
 }
 
-body, :root {
-    font-size: 1vw;
-    margin: 0;
-    padding: 0;
-}
-* {
-  box-sizing: border-box;
+:root {
+  font-size: 1vw;
 }
